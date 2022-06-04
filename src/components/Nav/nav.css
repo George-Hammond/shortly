@@ -11,15 +11,18 @@ nav {
 .nav-logo{
     width: 430.47px;
     display: flex;
+    align-items: center;
 }
 
 .logo svg{
     margin-top: 8.20px;
     cursor: pointer;
+    margin-right: 45.42px;
 }
 
 .navList{
-    display: flex;   
+    display: flex;
+    height: 21px;
 }
 
 .navList ul{
@@ -28,6 +31,7 @@ nav {
     height: 21px;
     /* border: 1px solid blue; */
     justify-content: space-between;
+    align-items: center;
 }
 
 .navList li{
@@ -35,6 +39,7 @@ nav {
     list-style-type: none;
     color: #9E9AA8;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navList li:hover{
@@ -61,6 +66,7 @@ nav {
     list-style-type: none;
     color: #9E9AA8;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logs li:hover{
