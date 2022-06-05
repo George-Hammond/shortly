@@ -4,15 +4,26 @@
     padding: 0px;
 }
 
-.shortner-form{
-    /* border: 1px solid blue; */
+.shortner-container{
     width: 1110px;
     height: 168px;
     margin: 0px 167px 10px 167px;
-    background-color: #4B3F6B;
+    background-color: #3A3054;
     border-radius: 10px;
     position: relative;
     top: -84px;
+}
+
+.shortner-container svg{
+    border-radius: 10px;
+}
+
+.shortner-form{
+    /* border: 1px solid blue; */
+    position:relative;
+    top: -170px;
+    border-radius: 10px;
+    height: 168px;
 }
 
 .shortner-form input[type=url]{
