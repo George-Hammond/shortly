@@ -1,12 +1,12 @@
 import React from 'react'
-import Nav from '../Nav/nav';
+import Shortner from '../Forms/urlShortner/shortner';
 import Header from '../Header/header';
 
 const App = () => {
   return (
-    <div>
-      <Nav />
+    <div>      
       <Header />
+      <Shortner />
     </div>
   )
 }
