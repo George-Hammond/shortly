@@ -4,6 +4,11 @@
     padding: 0px;
 }
 
+.container-shortner{    
+    background-color: #f2f2f2;
+    /* border: 1px solid black; */
+    
+}
 .shortner-container{
     width: 1110px;
     height: 168px;
@@ -50,7 +55,7 @@
     border: none;
     line-height: 30px;
     font-weight: 700;   
-    
+    cursor: pointer;    
 }
 
 .shortner-form input[type=submit]:hover{
