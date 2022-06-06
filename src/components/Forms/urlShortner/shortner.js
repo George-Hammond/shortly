@@ -1,6 +1,8 @@
 import React from 'react'
 import './shortner.css'
 import ListedLinks from '../shortened link lists/listedLinks'
+import Middle from '../../Middle/middle'
+import Boost from '../../Boost/boost'
 
 const Shortner = () => {
   return (
@@ -16,6 +18,8 @@ const Shortner = () => {
         </form>        
         </div>
         <ListedLinks />
+        <Middle />
+        <Boost />
       </div>
       
     </div>

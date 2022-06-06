@@ -50,6 +50,12 @@
     color: #fff;
     border: none;
     cursor: pointer;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #copy:hover{
@@ -64,6 +70,12 @@
     color: #fff;
     border: none;
     cursor: pointer;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #link{

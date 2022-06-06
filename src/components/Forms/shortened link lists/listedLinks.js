@@ -9,21 +9,21 @@ const ListedLinks = () => {
             <p id='url-link'>https://www.frontendmentor.io</p>
             <div className='right'>
                 <p id='link'>https://rel.ink/k4lKyk</p>
-                <p id='copy'>Copy</p>
+                <button id='copy'>Copy</button>
             </div>
         </div>
         <div className='listedLink'>
-            <p id='url-link'>https://www.frontendmentor.io</p>
+            <p id='url-link'>https://twitter.com/frontendmentor</p>
             <div className='right'>
-                <p id='link'>https://rel.ink/k4lKyk</p>
-                <p id='copied'>Copied!</p>
+                <p id='link'>https://rel.ink/gxOXp9</p>
+                <button id='copied'>Copied!</button>
             </div>
         </div>
         <div className='listedLink'>
-            <p id='url-link'>https://www.frontendmentor.io</p>
+            <p id='url-link'>https://www.linkedin.com/company/frontend-mentor</p>
             <div className='right'>
-                <p id='link'>https://rel.ink/k4lKyk</p>
-                <p id='copy'>Copy</p>
+                <p id='link'>https://rel.ink/gob3X9</p>
+                <button id='copy'>Copy</button>
             </div>
         </div>
       </div>

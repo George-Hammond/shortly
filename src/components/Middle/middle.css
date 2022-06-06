@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-middle{
+    /* border: 1px solid blue; */
+}
+.middle-container{
+    /* border: 1px solid red; */
+    width: 1110px;
+    height: 585px;
+    margin-left: 165px;
+    margin-bottom: 120px;
+}
+.middle-container-top{
+    /* border: 1px solid green; */
+    /* height: 130px; */
+    width: 540px;
+    margin: 0px 285px 56px 285px;
+}
+
+.advanced-stats{
+    /* border: 1px solid black; */
+}
+.advanced-stats h2{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 18px;
+    color: #34313D;
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.advanced-stats p{
+    font-family: 'Poppins', sans-serif;
+    color: #34313D;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.12px;
+
+}
+.middle-container-buttom{
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 399px;
+}
+
+.middle-buttom-content{
+    /* border: 1px solid green; */
+    width: 350px;
+    height: 267px;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.middle-buttom-content-svg{
+    width: 88px;
+    height: 88px;
+    background-color: #3A3054;
+    border-radius: 50px;
+    position: relative;
+    top: -45px;
+    left: 32px;
+}
+
+.middle-buttom-content-svg svg{
+    margin: 24px;
+}
+.middle-buttom-content h3{
+    font-family: 'Poppins', sans-serif;
+    width: 217px;
+    color: #34313D;
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 33px;
+    margin: 0px 126px 12px 32px;
+}
+
+.middle-buttom-content p{
+    font-family: 'Poppins', sans-serif;
+    width: 286px;
+    color: #34313D;
+    font-size: 15px;
+    font-weight: 500px;
+    line-height: 26px; 
+    text-align: left;
+    margin: 0px 32px 41px 32px;
+}
+
+.brand{
+    margin: 44px 30px 88px 0px;
+}
+
+.detailed{
+    margin: 88px 30px 44px 0px;
+    
+}
+
+.fully{
+    margin-top: 132px;
+}
+
+.line-across{
+    background-color: #2BD0D0;
+    width: 1110px;
+    height: 8px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -190px;
+}
