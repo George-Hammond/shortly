@@ -1,31 +1,23 @@
-import React from 'react'
+import { useState } from 'react'
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 import './listedLinks.css';
 
 const ListedLinks = () => {
+const [shortenLink, setShorenLink]= useState("https://rel.ink/k4lKyk");
+const [copied, setCopied] = useState(false)
+
   return (
     <div>
       <div className='listedLinks-container'>
         <div className='listedLink'>
             <p id='url-link'>https://www.frontendmentor.io</p>
             <div className='right'>
-                <p id='link'>https://rel.ink/k4lKyk</p>
-                <button id='copy'>Copy</button>
+                <p id='link'>{shortenLink}</p>
+                <CopyToClipboard text={shortenLink} onCopy={()=> setCopied(true)}>
+                    <button id={copied ? 'copied' : 'copy'} >{copied ? 'Copied!' : 'Copy'}</button>
+                </CopyToClipboard>                    
             </div>
-        </div>
-        <div className='listedLink'>
-            <p id='url-link'>https://twitter.com/frontendmentor</p>
-            <div className='right'>
-                <p id='link'>https://rel.ink/gxOXp9</p>
-                <button id='copied'>Copied!</button>
-            </div>
-        </div>
-        <div className='listedLink'>
-            <p id='url-link'>https://www.linkedin.com/company/frontend-mentor</p>
-            <div className='right'>
-                <p id='link'>https://rel.ink/gob3X9</p>
-                <button id='copy'>Copy</button>
-            </div>
-        </div>
+        </div>               
       </div>
     </div>
   )

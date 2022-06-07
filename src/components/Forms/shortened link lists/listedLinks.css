@@ -41,7 +41,9 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
-
+#url-link{
+    color: #34313D;
+}
 #copy{
     width: 103px;
     height: 40px;
