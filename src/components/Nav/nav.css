@@ -87,3 +87,20 @@ nav {
 .logs li button:hover{
     background-color: #9AE3E3;
 }
+
+@media screen and (max-width: 375px) {
+    .nav-logo {
+        width: 327px;
+        height: 33px;
+        left: 24px;
+        top: 40px;
+    }
+
+    .logo {
+        position: absolute;
+        width: 120.04px;
+        height: 32.67px;
+        left: 24px;
+        top: 40px;
+    }
+}
