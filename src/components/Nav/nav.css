@@ -103,4 +103,8 @@ nav {
         left: 24px;
         top: 40px;
     }
+
+    .navList, .logs ul {
+        display: none;
+    }
 }

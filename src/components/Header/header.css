@@ -5,7 +5,7 @@
 }
 
 .header{
-    /* border: 1px solid green; */
+    border: 1px solid green; 
     display: flex;
     flex-direction: column;
     height: 800px;
@@ -14,19 +14,19 @@
 }
 
 .header-nav{
-    /* border: 1px solid red; */
+     border: 1px solid red; 
 }
 
 .header-banner{
     display: flex;
-    /* border: 1px solid black; */
+    border: 1px solid black; 
 
 }
 
 .header-title{
     width: 565px;
     height: 351px;
-    /* border: 1px solid blue; */
+     border: 1px solid blue; 
     margin: 139px 50px 0px 129px;
 
 }
@@ -71,3 +71,15 @@
     margin-top: 78px;
 }
 
+
+@media screen and (max-width: 375px) {
+    .header-banner {
+        height: 619px;
+        width: 327px;
+        display: flex;
+        margin-top: 70px;
+        margin-left: 24px;
+    }
+
+    
+}
