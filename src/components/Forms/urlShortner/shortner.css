@@ -39,12 +39,14 @@
     border-radius: 10px;
     border: none;
     padding-left: 32px;
+    padding-right: 32px;
     line-height: 36px;
     letter-spacing: 0.15px;
     font-weight: 500;
+    color: #34313D;
 }
 
-.shortner-form input[type=submit]{
+.shortner-form button {
     width: 188px;
     height: 64px;
     color: #fff;
@@ -58,6 +60,6 @@
     cursor: pointer;    
 }
 
-.shortner-form input[type=submit]:hover{
+.shortner-form button:hover{
     background-color: #9AE3E3;
 }
