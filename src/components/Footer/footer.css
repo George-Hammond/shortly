@@ -179,4 +179,16 @@
         top: -209px;
         flex-direction: column;
     }
+
+    .footer-information h4 {
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 18px;
+        color: #fff;
+        font-size: 16px;
+        padding-bottom: 12px;
+        margin-top: 20px;
+        line-height: 24px;
+        letter-spacing: -0.25px;
+        text-align: left;
+    }
 }
