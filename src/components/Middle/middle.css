@@ -150,4 +150,12 @@
         flex-wrap: nowrap;
         justify-content: space-between;
     }
+
+    .middle-buttom-content {
+        /* border: 1px solid green; */
+        width: 327px;
+        height: 267px;
+        z-index: 100;
+        background-color: #fff;
+    }
 }
