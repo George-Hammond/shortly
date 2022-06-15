@@ -167,4 +167,16 @@
         flex-wrap: nowrap;
         justify-content: space-between;
     }
+
+    .footer-information {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        width: 121px;
+        margin: 0px 130px;
+        height: 166px;
+        position: relative;
+        top: -209px;
+        flex-direction: column;
+    }
 }
