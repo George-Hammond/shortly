@@ -50,3 +50,14 @@
 .boost-information button:hover{
     background-color: #9AE3E3;
 }
+
+@media screen and (max-width: 375px) {
+    .boost-container {
+        /* border: 1px solid red; */
+        background-color: #3A3054;
+        width: 375px;
+        position: relative;
+        top: -121px;
+        height: 250px;
+    }
+}
