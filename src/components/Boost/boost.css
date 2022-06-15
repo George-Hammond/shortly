@@ -69,4 +69,17 @@
         width: 375px;
         height: 136px;
     }
+
+    .boost-information h3 {
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 32px;
+        color: #fff;
+        position: relative;
+        left: -450px;
+        font-size: 30px;
+        font-weight: 700px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -1px;
+    }
 }
