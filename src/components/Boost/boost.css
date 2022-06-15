@@ -60,4 +60,13 @@
         top: -121px;
         height: 250px;
     }
+
+    .boost-information {
+        /* border: 1px solid white; */
+        position: relative;
+        top: -197px;
+        left: 450px;
+        width: 375px;
+        height: 136px;
+    }
 }
