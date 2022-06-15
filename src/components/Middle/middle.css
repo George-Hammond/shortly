@@ -131,5 +131,9 @@
         margin-bottom: 120px;
     }
 
-    
+    .middle-container-top {
+        /* border: 1px solid green; */
+        width: 327px;
+        margin: 0px 285px 26px 0;
+    }
 }
