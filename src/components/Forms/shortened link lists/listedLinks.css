@@ -127,7 +127,7 @@
         justify-content: space-between;
         text-align: center;
         flex-direction: column;
-        position: fixed;
+        position: absolute;
     }
 
     #copy {
