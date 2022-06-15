@@ -169,4 +169,15 @@
         top: -45px;
         left: 102px;
     }
+
+    
+    .line-across {
+        background-color: #2BD0D0;
+        width: 8px;
+        height: 1014px;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -190px;
+        left: 144px;
+    }
 }
