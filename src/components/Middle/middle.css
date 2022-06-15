@@ -117,3 +117,10 @@
     top: -190px;
 }
 
+@media screen and (max-width: 375px) {
+    .container-middle {
+        background: #f2f2f2;
+    }
+
+    
+}
