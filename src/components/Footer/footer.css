@@ -155,4 +155,16 @@
         margin: 71.18px 120px 0px;
         cursor: pointer;
     }
+
+    .footer-container {
+        background-color: #232127;
+        display: flex;
+        width: 375px;
+        height: 900px;
+        position: absolute;
+        top: 3068px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
 }
