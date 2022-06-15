@@ -136,4 +136,18 @@
         width: 327px;
         margin: 0px 285px 26px 0;
     }
+
+    .middle-container-buttom {
+        /* border: 1px solid purple; */
+        display: flex;
+        width: 327px;
+        height: 311px;
+        left: -30px;
+        position: relative;
+        margin-left: 30px;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
 }
