@@ -102,3 +102,51 @@
     width: 558px;
 }
 
+@media screen and (max-width: 375px) {
+    .listedLinks-container {
+        position: relative;
+        top: -78px;
+        /* border: 1px solid red; */
+        width: 327px;
+        margin-top: 25px;
+        margin-left: 30px;
+        /* border-radius: 5px; */
+        float: none;
+        margin-right: 0;
+    }
+    
+    .listedLink {
+        /* border: 1px solid green; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 72px;
+        margin-bottom: 16px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    
+    .listedLink p {
+        height: 36px;
+        /* border: 1px solid blue; */
+        text-align: center;
+        line-height: 36px;
+        letter-spacing: 0.15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    
+    .listedLink .right {
+        display: flex;
+        width: 327px;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+        position: absolute;
+    }
+
+    #copy {
+        width: 295px;
+    }
+}
