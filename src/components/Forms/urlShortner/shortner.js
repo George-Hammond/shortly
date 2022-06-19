@@ -14,7 +14,7 @@ const Shortner = () => {
         </svg>
         <form className='shortner-form'>
             <input type='url' placeholder='Shorten a link here...' />
-            <input type='submit' value='shorten it!'/> 
+            <input type='submit' value='Shorten it!'/> 
         </form>        
         </div>
         <ListedLinks />

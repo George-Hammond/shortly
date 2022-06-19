@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
           <div className='footer-information'>
               <div className='footer-information-features'>
-                    <h4>Feature</h4>
+                    <h4>Features</h4>
                     <ul>
                         <li>Link Shortening</li>
                         <li>Branded Links</li>
