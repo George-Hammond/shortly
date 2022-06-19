@@ -29,12 +29,26 @@
     top: -170px;
     border-radius: 10px;
     height: 168px;
+    
 }
 
-.shortner-form input[type=url]{
+.special{
+    /* border: 1px solid red; */
+    /* width: 769px; */
+    margin-left: 64px;
+    margin-top: 52px;
+    margin-bottom: 8px;
+    /* display: flex;
+    justify-content:space-around;
+    align-items: center; */
+}
+
+
+
+.shortner-form .special input[type=url]{
     width: 769px;
     height: 64px;
-    margin: 52px 24px 52px 64px;
+    margin: 0px 24px 0px 0px;
     font-family: 'Poppins', sans-serif;
     border-radius: 10px;
     border: none;
@@ -43,10 +57,11 @@
     line-height: 36px;
     letter-spacing: 0.15px;
     font-weight: 500;
-    color: #34313D;
+    outline-color: red;
+    color: red;
 }
 
-.shortner-form button {
+.shortner-form .special button {
     width: 188px;
     height: 64px;
     color: #fff;
